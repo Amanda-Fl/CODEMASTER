@@ -114,10 +114,17 @@ For speech recognition input, the player is instructed every time which English 
 LIBRARIES USED
 
 re:                 to parse player's input and check the validity of inputted codes
+
 random:             to generate the hidden code
+
 os:                 to clear the terminal screen for play
+
 pyfiglet:           to display a pretty 'CodeMaster' title
+
 speech_recognition: to parse the player's spoken input
+
 sounddevice:        to record the player's speech from the mic
+
 scipy:              to write the resulting .wav file to disk
+
 soundfile:          to translate the .wav file into a PCM .wav file acceptable to speech_recognition
