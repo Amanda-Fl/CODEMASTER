@@ -37,7 +37,7 @@ In main(), I implemented a while True loop so that the player could play repeate
 For a single game, the pseudocode logic is as follows:
 
 - Generate the hidden code
-= For up to ten turns, get the player's guess by text or spoken word
+- For up to ten turns, get the player's guess by text or spoken word
 - Check the validity of the player's guess, and prompt again if it's not suitable
 - Compare the validated guess against the code and calculate the number of warm and hot guesses made
 - Display all guesses to date alongside their results, for player review
