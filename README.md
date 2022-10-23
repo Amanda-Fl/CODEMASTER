@@ -43,7 +43,7 @@ For a single game, the pseudocode logic is as follows:
 - Display all guesses to date alongside their results, for player review
 - Determine whether the player has won or lost the game
 
-I separateD each of these processes out into a function:
+I separated each of these processes out into a function:
 
 generate_code() - returns a randomly selected code
 
@@ -64,7 +64,9 @@ I documented each function with type hints, docstrings and comments to ensure re
 I used classes for ANSI escape sequence strings (colours) and Unicode sequence strings (counters), to make the setting of colour and counter more usable/readable.
 
 
+
 PRESENTATION AND EASE OF PLAY
+
 This was my second consideration. A game should be attractive and easy to play, with clear feedback given to the player.
 
 Using the terminal created some constraints, and I thought about implementing the game in pygame. However, I've never worked with the command line, and wanted to create something in the terminal that looked good even given the constraints.
