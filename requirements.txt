@@ -1,0 +1,7 @@
+''' Requirements for CodeMaster game'''
+
+pyfiglet
+speech_recognition
+sounddevice
+soundfile
+scipy
